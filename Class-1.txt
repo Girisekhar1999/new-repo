@@ -1,0 +1,56 @@
+    1  clear
+    2  git --v
+    3  git --version
+    4  clear
+    5  mkdir simple-git-demo
+    6  cd simple-git-demo
+    7  git init
+    8  cat>demo.txt
+    9  cat demo.txt
+   10  git status
+   11  git add demo.txt
+   12  git status
+   13  git commit -m "first commit on demo.txt"
+   14  clear
+   15  git status
+   16  ls
+   17  touch file1.txt file2.txt file3.txt
+   18  git status
+   19  git add .
+   20  git status
+   21  git commit -m "file1,2,3 committed"
+   22  clear
+   23  ls
+   24  nano demo.txt
+   25  git status
+   26  git add .
+   27  git status
+   28  git commit -m "2nd commit on demo.txt"
+   29  clear
+   30  git log
+   31  cd ..
+   32  clear
+   33  ls
+   34  mkdir second-repo
+   35  cd second-repo
+   36  git init
+   37  clear
+   38  touch demo3.txt demo4.txt
+   39  nano demo3.txt
+   40  nano demo4.txt
+   41  ls
+   42  cat demo3.tx
+   43  cat demo3.txt
+   44  cat demo4.txt
+   45  git status
+   46  git add demo3.txt
+   47  git status
+   48  git commit -m "demo3 committed"
+   49  git status
+   50  cleaf
+   51  clear
+   52  git log
+   53  git add .
+   54  git status
+   55  git commit -m "demo4 committed"
+   56  cd ..
